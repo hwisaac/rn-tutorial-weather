@@ -46,19 +46,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   cityName: {
-    fontSize: 68,
+    fontSize: 58,
     fontWeight: '500',
   },
-  weather: {
-    flex: 3,
-  },
+  weather: {},
   day: {
-    flex: 1,
+    width: SCREEN_WIDTH,
     alignItems: 'center',
   },
   temp: {
     marginTop: 50,
-    fontSize: 178,
+    fontWeight: '600',
+    alignItems: 'center',
+  },
+  temp: {
+    marginTop: 50,
+    fontSize: 100,
   },
   description: {
     marginTop: -30,

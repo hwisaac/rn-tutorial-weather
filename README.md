@@ -39,7 +39,7 @@ npm start
   2. `flexDirection` 기본값은 `column` 입니다.
   3. `overflow` 되었어도 스크롤할 수 있는 것은 아닙니다.
   4. `width` 와 `height` 를 지정하여 레이아웃을 만들지 않습니다 (`flex` 값으로 비율로 레이아웃을 정합니다)
-- `<View />` 컴포넌트는 스크롤 기능을 제공하지 않습니다. `<ScrollView />` 를 사용합시다. (Note: `ScrollView` 를 사용시, `style` 대신 `contentContainerStyle` 프롭을 써야합니다)
+- `<View />` 컴포넌트는 스크롤 기능을 제공하지 않습니다. [`<ScrollView />`](https://reactnative.dev/docs/scrollview) 를 사용합시다. (Note: `ScrollView` 를 사용시, `style` 대신 `contentContainerStyle` 프롭을 써야합니다)
 
 ## React Native Packages
 
